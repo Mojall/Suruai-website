@@ -1,0 +1,88 @@
+* {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+  background-color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #fff;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.section-inner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  animation-name: fadeOut;
+  animation-duration: 2s;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+}
+
+.suruai-name {
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 10px 0;
+}
+
+.icon-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.icon-list__item,
+.play-button {
+  cursor: pointer;
+}
+
+.icon-list__item-content {
+  width: 30px;
+  height: 30px;
+}
+
+.play-button {
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

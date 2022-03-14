@@ -1,0 +1,10 @@
+{
+  "name": "alina",
+  "version": "1.0.0",
+  "description": "Suruai-website",
+  "main": "./src/script.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "mojall",
+  "license": "MIT"
+}
