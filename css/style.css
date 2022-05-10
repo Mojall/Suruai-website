@@ -50,7 +50,7 @@ canvas {
 }
 
 .suruai-name {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 2rem;
   padding: 10px 0;
 }
